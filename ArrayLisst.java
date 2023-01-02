@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collection;
 
 public class ArrayLisst {
 public static void main(String[] args) {
@@ -43,5 +44,8 @@ if (checked) {
 }
 else
   System.out.println(al);
+// To Sort element on a ArrayList we use Collection.sort(name);
+  Collection.sort(al);
+  System.out.println(al); // This will print list in Ascending oreder.
 }
 }
